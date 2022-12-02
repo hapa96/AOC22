@@ -8,9 +8,9 @@ namespace AOC22
     private readonly Stopwatch _timer = new();
 
         protected BaseDay()
-    {
-        InputData = File.ReadAllLines($"Input/{GetType().Name}").ToList();
-    }
+        {
+            InputData = File.ReadAllLines($"Input/{GetType().Name}").ToList();
+        }
 
         public void RunPart01()
         {
