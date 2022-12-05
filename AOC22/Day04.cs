@@ -31,7 +31,7 @@ public class Day04 : BaseDay
 
     protected override void DoRunPart02()
     {
-        var partiallyOverlapingAreas = 0;
+        var partiallyOverlappingAreas = 0;
         string pattern = @"(\d+)-(\d+),(\d+)-(\d+)";
         foreach (var line in InputData)
         {
@@ -48,9 +48,9 @@ public class Day04 : BaseDay
 
             if (firstList.Intersect(secondList).Any())
             {
-                partiallyOverlapingAreas++;
+                partiallyOverlappingAreas++;
             }
         }
-        Console.WriteLine($"Solution Part 02: {partiallyOverlapingAreas}");
+        Console.WriteLine($"Solution Part 02: {partiallyOverlappingAreas}");
     }
 }
