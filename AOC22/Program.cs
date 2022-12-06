@@ -16,6 +16,10 @@
 //day04.RunPart01();
 //day04.RunPart02();
 
-var day05 = new Day05();
-day05.RunPart01();
-day05.RunPart02();
+//var day05 = new Day05();
+//day05.RunPart01();
+//day05.RunPart02();
+
+var day06 = new Day06();
+day06.RunPart01();
+day06.RunPart02();
