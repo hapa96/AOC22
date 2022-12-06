@@ -3,14 +3,14 @@ namespace AOC22
 {
     public class Day06 : BaseDay
     {
-        public void IsUnique(string str, int n)
+        public void FindUniqueSubstring(string str, int lengthOfString)
         {
             for (int i = 0; i < str.Length; i++)
             {
-                var numberOfDistinctChars = str.Substring(i, n).Distinct().Count();
-                if (numberOfDistinctChars == n)
+                var numberOfDistinctChars = str.Substring(i, lengthOfString).Distinct().Count();
+                if (numberOfDistinctChars == lengthOfString)
                 {
-                    Console.WriteLine(i + n);
+                    Console.WriteLine(i + lengthOfString);
                     return;
                 }
             }
@@ -18,12 +18,12 @@ namespace AOC22
 
         protected override void DoRunPart01()
         {
-            IsUnique(InputData[0], 4);
+            FindUniqueSubstring(InputData[0], 4);
         }
 
         protected override void DoRunPart02()
         {
-            IsUnique(InputData[0], 14);
+            FindUniqueSubstring(InputData[0], 14);
         }
     }
 }
