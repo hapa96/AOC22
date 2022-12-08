@@ -2,4 +2,4 @@
 Solutions for [AdventOfCode 2022](https://adventofcode.com/) in .Net
 
 
-![](https://img.shields.io/badge/stars%20⭐-12-yellow)
+![](https://img.shields.io/badge/stars%20⭐-14-yellow)
