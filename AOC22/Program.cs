@@ -28,6 +28,14 @@
 //day07.RunPart01();
 //day07.RunPart02();
 
-var day08 = new Day08();
-day08.RunPart01();
-day08.RunPart02();
+//var day08 = new Day08();
+//day08.RunPart01();
+//day08.RunPart02();
+
+//var day09 = new Day09();
+//day09.RunPart01();
+//day09.RunPart02();
+
+var day10 = new Day10();
+day10.RunPart01();
+day10.RunPart02();
